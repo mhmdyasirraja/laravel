@@ -101,3 +101,49 @@ footer {
     padding: 20px;
     color: #94a3b8;
 }
+
+.produk {
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.produk h1 {
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.produk-card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.produk-card h3 {
+    margin-bottom: 10px;
+}
+
+.about {
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #94a3b8;
+    line-height: 1.6;
+}

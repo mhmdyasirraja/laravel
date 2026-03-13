@@ -1,44 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.app')
 
-<head>
+@section('content')
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<section class="hero">
 
-    <title>Toko Sewa Baju</title>
+    <h1>BELAJAR LARAVEL SIRRR</h1>
 
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    <p>
+        Halo {{$nama}} <br>
+        Anda adalah seorang <b>{{$pekerjaan}}</b>
+    </p>
 
-</head>
+</section>
 
-<body>
-
-    <nav>
-        <h2 class="logo">Laravel</h2>
-
-        <div class="menu">
-            <a href="/">Home</a>
-            <a href="/contact">Contact</a>
-        </div>
-    </nav>
-
-
-    <section class="hero">
-
-        <h1>BELAJAR LARAVEL SIRRR</h1>
-
-        <p>
-            Halo {{$nama}} <br>
-            Anda adalah seorang <b>{{$pekerjaan}}</b>
-        </p>
-
-    </section>
-
-    <footer>
-        <p>© 2026 belajar laravel</p>
-    </footer>
-
-</body>
-
-</html>
+@endsection
